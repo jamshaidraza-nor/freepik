@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-image: linear-gradient(rgb(0, 0, 0),black, rgb(182, 182, 43));
+  color: white;
+  padding-bottom: 8rem;
+}
+header {
+  width: 100%;
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: black;
+}
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+nav ul {
+  font-size: 0.8rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  margin-left: 15px;
+  color: white;
+  height: 50px;
+  align-items: center;
+}
+.sign-in ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+  width: 400px;
+  justify-content: flex-end;
+  margin-left: 200px;
+}
+
+.sign-in-top {
+  border: 1px solid white;
+  padding: 0.5rem 0.7rem;
+  border-radius: 10%;
+  color:white
+}
+.pricing {
+  color: orange;
+}
+.banner {
+  margin-top: 4rem;
+}
+.banner h1 {
+  font-size: 44px;
+}
+.banner p {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.search-container {
+  background-color: rgb(68, 62, 62);
+  width: 250px;
+  height: 40px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+  margin: 20px 0;
+}
+.search-btn {
+  width: 125px;
+  height: 40px;
+  background-color: white;
+  border-radius: 20px;
+  border: none;
+}
+.create-btn {
+  background-color: transparent;
+  width: 125px;
+  height: 40px;
+  color: white;
+  border: none;
+}
+
+.create-icon {
+  margin-right: 15px;
+}
+
+.search-bar-container {
+  background-color: white;
+  height: 55px;
+  width: 75%;
+  border-radius: 0.3rem;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.search-bar-container a {
+  text-decoration: none;
+  color: black;
+}
+.assets {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 20%;
+  border-right: 1px solid gray;
+  padding: 0 1rem;
+}
+
+.search-area {
+  width: 60%;
+}
+.search-area input {
+  padding: 1rem;
+  border: none;
+
+  width: 100%;
+  height: 100%;
+}
+.search-area input:focus {
+  outline: none;
+}
+
+.search-final-btn {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 30%;
+  height: 100%;
+  gap: 10px;
+}
+
+.search-final-btn button {
+  cursor: pointer;
+}
+
+.sf-icon {
+  height: 40px;
+  width: 40px;
+  background-color: transparent;
+  border: solid 1px gray;
+}
+.sf-icon:hover {
+  border: 2px solid black;
+}
+.final-search {
+  background-color: blue;
+  color: white;
+  height: 40px;
+  width: 40%;
+  margin-right: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+.final-search:hover {
+  background-color: rgb(5, 5, 196);
+}
+.search-icon {
+  margin-right: 0.5rem;
+}
+
+.portfolio {
+  position: relative;  
+  height: 8rem;
+  margin: 0 30px;
+}
+
+.box {
+  width: 100%;
+  height: 180px;
+  position: absolute;
+  top:-90px;
+  display: flex;
+  
+}
+.inner-box{
+  background-image: url('https://fps.cdnpk.net/home/banner-tools-v2/ai-video-generator-v2.webp');
+  background-size: cover;
+  width: 350px;
+  height: 100%;
+  background-color: green;
+  border-radius: 10px;
+  margin-left: 20px ;
+  color:white;
+  padding:10px
+
+}
+.inner-box img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+
+}
+.inner-box p{
+  margin: 5px 0;
+}
+.inner-img2{
+  background-image: url('https://fps.cdnpk.net/home/banner-tools-v2/ai-image-generator.webp');
+  background-size: cover;
+}
+
+.inner-img3{
+  background-image: url('https://fps.cdnpk.net/home/banner-tools-v2/reimagine.webp');
+  background-size: cover;
+}
+
+.inner-img4{
+  background-image: url('https://fps.cdnpk.net/home/banner-tools-v2/upscale.webp');
+  background-size: cover;
+}
+
+.main-section{
+  margin: 50px 30px;
+  padding: 0 20px;
+}
+.asset-components{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.asset-items{
+  width: 160px;
+  height: 90px;
+  background-color: rgb(233, 228, 228);
+  padding: 10px 0;
+  margin:50px 0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+}
+.asset-items i{
+  font-size: 20px;
+  color:rgb(40, 40, 42);
+  margin-bottom: 10px;
+}
